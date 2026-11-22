@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex"><!-- draft: remove before launch -->
-<title>Housing market resilience and TOD in Auckland — Kelly Li</title>
-<meta name="description" content="Summer research scholarship at the University of Auckland: field surveys and data analysis on housing market resilience and transit-oriented development around Auckland’s railway stations.">
-<meta property="og:title" content="Housing market resilience and transit-oriented development in Auckland">
+<title>Housing resilience and transit-oriented development in Auckland — Kelly Li</title>
+<meta name="description" content="Summer research scholarship, University of Auckland: a repeat-sales analysis of housing value resilience around 24 Auckland railway stations through the 2005–2015 financial cycle.">
+<meta property="og:title" content="Housing resilience and transit-oriented development in Auckland">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_GB">
 <meta property="og:image" content="https://ruotian-li.github.io/assets/img/og-image.jpg">
@@ -43,60 +43,94 @@
 
   <header class="page-head wrap">
     <a class="back" href="../index.html#work">← All work</a>
-    <p class="eyebrow">Sheet 01 · Research</p>
-    <h1>Housing market resilience and transit-oriented development in Auckland</h1>
-    <p class="lede">A summer research scholarship at the University of Auckland, combining field surveys, data analysis and academic research on Auckland’s railway stations to study housing market resilience and transit-oriented development (TOD).</p>
+    <p class="eyebrow">Sheet 02 · Research</p>
+    <h1>Housing resilience and transit-oriented development in Auckland</h1>
+    <p class="lede">A summer research scholarship asking whether homes close to Auckland’s railway stations hold their value better through an economic downturn — and whether that is down to the station, or to the place around it.</p>
     <dl class="facts">
       <div><dt>Dates</dt><dd>November 2024 – February 2025</dd></div>
       <div><dt>Context</dt><dd>University of Auckland Summer Research Scholarship</dd></div>
-      <div><dt>Role</dt><dd>Researcher</dd></div>
-      <div><dt>Supervision</dt><dd><mark class="tbc">supervisor’s name and title</mark></dd></div>
-      <div><dt>Tools</dt><dd><mark class="tbc">e.g. ArcGIS, Excel</mark></dd></div>
-      <div><dt>Location</dt><dd>Auckland, New Zealand</dd></div>
+      <div><dt>Role</dt><dd>Researcher (individual project)</dd></div>
+      <div><dt>Study area</dt><dd>24 stations on the Southern, Eastern and Onehunga lines</dd></div>
+      <div><dt>Method</dt><dd>Repeat Sales Index with OLS regression</dd></div>
+      <div><dt>Period</dt><dd>The 2005–2015 financial cycle</dd></div>
     </dl>
   </header>
 
   <figure class="wrap lead-figure">
-    <div class="ph" style="--ar: 16 / 9"><span>Lead image — study area: Auckland rail network and the stations surveyed</span></div>
+    <img src="../assets/img/projects/tod/chart-southern.png" width="1200" height="600" alt="Line chart of house price indices by station along the Southern Line, for two distance bands and two economic phases">
+    <figcaption>House price index by station on the Southern Line, for homes within 0.6 km and 0.6–1.2 km of the station, across the trough (2008/09–2011/12) and expansion (2011/12–2014/15) phases.</figcaption>
   </figure>
 
   <section class="wrap block">
-    <h2><span class="num">01</span>Context</h2>
+    <h2><span class="num">01</span>The question</h2>
     <div class="body">
-      <p>Transit-oriented development concentrates homes, jobs and services within walking distance of public transport.</p>
-      <p><mark class="tbc">One or two sentences on why Auckland’s railway stations were studied, and the research question in plain English.</mark></p>
+      <p>In the third quarter of 2024, more than 16% of homes resold in Auckland sold for less than their purchase price — the highest share in almost ten years. Research in the United States suggests that homes in walkable neighbourhoods close to rail hold their value better through a downturn. I set out to test whether the same is true in Auckland, and whether transit-oriented development (TOD) is what makes the difference.</p>
+      <ul>
+        <li>Identify TOD and transit-adjacent development (TAD) areas around Auckland’s stations.</li>
+        <li>Measure housing value resilience around the stations through the last full financial cycle.</li>
+        <li>Understand how far TOD characteristics explain the differences.</li>
+      </ul>
     </div>
   </section>
 
   <section class="wrap block">
-    <h2><span class="num">02</span>Approach</h2>
+    <h2><span class="num">02</span>Method</h2>
     <div class="body">
-      <p>The study combined field surveys at railway stations with data analysis and a review of the academic literature, working closely with faculty throughout.</p>
-      <p><mark class="tbc">Which stations were surveyed, what was recorded on site, and which datasets were analysed (for example house sales, rents or census data).</mark></p>
+      <ul>
+        <li><strong>Study area:</strong> the 24 stations on the Southern, Eastern and Onehunga lines that were open throughout 2004–2015. The Western Line, which carried far fewer passengers, and Parnell station, which opened in 2017, were excluded.</li>
+        <li><strong>Two distance bands:</strong> 0–0.6 km, a comfortable walk, and 0.6–1.2 km, roughly the 15-minute walking catchment.</li>
+        <li><strong>Time frame:</strong> the phases of New Zealand’s financial cycle identified by Davies and Gai — downturn, trough and expansion.</li>
+        <li><strong>Repeat Sales Index:</strong> pairs of sales of the same property, with log price differences regressed on time-period dummies using ordinary least squares (the Bailey–Muth–Nourse model). Repeat sales suit New Zealand, where the detailed property data that hedonic models need is hard to obtain.</li>
+        <li><strong>Station profiles:</strong> nearby shops, schools and hospitals, housing mix, crime and walkability.</li>
+      </ul>
     </div>
     <div class="figs">
-      <figure><div class="ph"><span>Field survey photographs</span></div></figure>
-      <figure><div class="ph"><span>Analysis map or chart</span></div></figure>
+      <figure><img src="../assets/img/projects/tod/chart-eastern.png" width="1200" height="600" alt="Line chart of house price indices by station along the Eastern Line" loading="lazy"><figcaption>Eastern Line, Britomart to Manukau.</figcaption></figure>
+      <figure><img src="../assets/img/projects/tod/chart-onehunga.png" width="1200" height="600" alt="Line chart of house price indices by station along the Onehunga Line" loading="lazy"><figcaption>Onehunga Line, Newmarket to Te Papapa.</figcaption></figure>
     </div>
   </section>
 
   <section class="wrap block">
     <h2><span class="num">03</span>Findings</h2>
     <div class="body">
-      <ul>
-        <li><mark class="tbc">Key finding one</mark></li>
-        <li><mark class="tbc">Key finding two</mark></li>
-        <li><mark class="tbc">Key finding three</mark></li>
-      </ul>
+      <p>Reading the price indices alongside each station’s characteristics produced three distinct groups.</p>
     </div>
-    <div class="figs figs--one">
-      <figure><div class="ph" style="--ar: 16 / 9"><span>Summary diagram or research poster</span></div></figure>
+    <div class="typology">
+      <div class="type">
+        <p class="tag">Most resilient</p>
+        <h3>High-value core zones</h3>
+        <p class="stations">Britomart · Newmarket · Remuera · Greenlane · Orakei · Meadowbank</p>
+        <p>Prices held steady through the downturn and recovered fastest. Dense, walkable, mixed-use areas with strong services and low crime.</p>
+      </div>
+      <div class="type">
+        <p class="tag">Moderately resilient</p>
+        <h3>Emerging zones</h3>
+        <p class="stations">Ellerslie · Onehunga · Penrose · Sylvia Park · Panmure · Te Papapa</p>
+        <p>Prices rose but were more volatile, especially beyond 0.6 km, where car-oriented layouts and fragmented land use limited the benefit.</p>
+      </div>
+      <div class="type">
+        <p class="tag">Least resilient</p>
+        <h3>Peripheral zones</h3>
+        <p class="stations">Manukau · Puhinui · Middlemore · Papatoetoe · Otahuhu · Homai · Manurewa · Te Mahia · Takanini · Papakura</p>
+        <p>Being near a station did not stabilise prices. Low walkability, car dependence and higher crime left values exposed in both distance bands.</p>
+      </div>
     </div>
   </section>
 
+  <section class="wrap block">
+    <h2><span class="num">04</span>What it means</h2>
+    <div class="body">
+      <p class="pull">Proximity to a station is not enough on its own. Resilience fades with distance unless it is backed by walkable, mixed-use urban design — which argues for planning whole corridors, not isolated station sites.</p>
+      <p>The study has clear limits: it includes only homes sold more than once, capital values move more smoothly than market prices, and it cannot fully separate the effect of TOD from the characteristics of the homes themselves.</p>
+      <p>This was my first independent research project. Designing the study and preparing the sales data took far longer than I expected, and pushed me to strengthen my statistics and learn new ways to visualise data — it is also what convinced me to go on to a master’s degree.</p>
+    </div>
+  </section>
+
+  <div class="wrap credits"><p>Charts: author’s analysis of Auckland property sales data.</p></div>
+
   <nav class="wrap next" aria-label="Next project">
-    <p class="eyebrow">Next · Sheet 02</p>
-    <a href="studio-project.html">Studio project →</a>
+    <p class="eyebrow">Next · Sheet 03</p>
+    <a href="orewa-coastal-shelters.html">Climate justice on the Ōrewa coast →</a>
   </nav>
 
 </article>
